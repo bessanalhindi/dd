@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 import 'package:fooddelivery/admin/models/restaurantAll.dart';
 import 'package:fooddelivery/admin/providers/admin_provider.dart';
-import 'package:fooddelivery/providers/food_provider.dart';
 import 'package:fooddelivery/routers/app_router.dart';
 import 'package:fooddelivery/screens/view_more_screens/menu_restaurant_screen.dart';
 import 'package:provider/provider.dart';
@@ -128,7 +126,7 @@ class DetailResturantScreen extends StatelessWidget {
                                         backgroundColor:
                                             Colors.greenAccent.shade100,
                                         child: const Icon(
-                                          Icons.whatsapp,
+                                          Icons.chat,
                                           color: Color(0xFF15BE77),
                                         ),
                                       ),
